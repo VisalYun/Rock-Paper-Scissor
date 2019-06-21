@@ -48,7 +48,6 @@ body{
 .choice{
     display: inline-block;
     margin: 0 10px;
-    /*transition: all 1s ease;*/
 }
 img{
     width: 100px;
@@ -60,4 +59,136 @@ img{
 .message{
     font-weight: bold;
     font-size: 20px;
+}
+/*laptop*/
+@media screen and (max-width: 1024px){
+    img{
+        width: 200px;
+    }
+    .result{
+        font-size: 60px;
+    }
+    .message{
+        font-size: 32px;
+    }
+    header{
+        font-size: 35px;
+    }
+    .scorebar{
+        padding: 20px 30px;
+        font-size: 60px;
+    }
+    .badge{
+        font-size: 20px;
+        width: 50px;
+    }
+    #user{
+        position: absolute;
+        top: 45px;
+        left: -25px;
+    }
+    #com{
+        position: absolute;
+        top: 45px;
+        right: -30px;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 768px){
+    img{
+        width: 150px;
+    }
+    .result{
+        font-size: 40px;
+    }
+    .message{
+        font-size: 28px;
+    }
+    header{
+        font-size: 25px;
+    }
+    .scorebar{
+        padding: 15px 25px;
+        font-size: 48px;
+    }
+    .badge{
+        font-size: 18px;
+        width: 35px;
+    }
+    #user{
+        position: absolute;
+        top: 30px;
+        left: -25px;
+    }
+    #com{
+        position: absolute;
+        top: 30px;
+        right: -30px;
+    }
+}
+/*large phone*/
+@media screen and (max-width: 520px){
+    img{
+        width: 100px;
+    }
+    .result{
+        font-size: 32px;
+    }
+    .message{
+        font-size: 24px;
+    }
+    header{
+        font-size: 20px;
+    }
+    .scorebar{
+        padding: 10px 15px;
+        font-size: 42px;
+    }
+    .badge{
+        font-size: 12px;
+        width: 30px;
+    }
+    #user{
+        position: absolute;
+        top: 30px;
+        left: -25px;
+    }
+    #com{
+        position: absolute;
+        top: 30px;
+        right: -30px;
+    }
+}
+/*medium phone*/
+@media screen and (max-width: 450px){
+    img{
+        width: 80px;
+    }
+    .result{
+        font-size: 24px;
+    }
+    .message{
+        font-size: 18px;
+    }
+    header{
+        font-size: 15px;
+    }
+    .scorebar{
+        padding: 0px;
+        font-size: 36px;
+    }
+    .badge{
+        font-size: 12px;
+        width: 30px;
+    }
+    #user{
+        position: absolute;
+        top: 15px;
+        left: -25px;
+    }
+    #com{
+        position: absolute;
+        top: 15px;
+        right: -30px;
+    }
 }
